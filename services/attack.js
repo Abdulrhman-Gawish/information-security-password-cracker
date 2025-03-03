@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const PASSWORD = "gawish"; // Defined password
+const PASSWORD = "admin"; // Defined password
 
 const dictionaryAttack = () => {
   try {
@@ -31,7 +31,7 @@ const bruteForceAttack = () => {
     }
     return null;
   };
-  return generateCombinations(6);
+  return generateCombinations(5);
 };
 
 module.exports = {
