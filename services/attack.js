@@ -1,9 +1,7 @@
-const express = require("express");
 const fs = require("fs");
 const path = require("path");
 
-const router = express.Router();
-const PASSWORD = "aliii";
+const PASSWORD = "gawish"; // Defined password
 
 const dictionaryAttack = () => {
   try {
@@ -33,7 +31,7 @@ const bruteForceAttack = () => {
     }
     return null;
   };
-  return generateCombinations(5);
+  return generateCombinations(6);
 };
 
 module.exports = {

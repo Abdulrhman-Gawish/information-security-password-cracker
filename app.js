@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const dotenv = require("dotenv");
 dotenv.config();
-const crackRouter = require("./routes/crack");
+const crackRouter = require("./routes/crackRoute");
 
 const app = express();
 const PORT = process.env.PORT;
